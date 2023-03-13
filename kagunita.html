@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="kn">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>ಕಾಗುಣಿತ - Kāguṇita</title>
+		<style>
+			table, th, td {
+				border: 2px solid black;
+				border-collapse: collapse;
+			}
+			td {
+				font-size:30px;
+				text-align: center;
+			}
+			.vowel, .consonant {
+				font-size:30px;
+				background-color:gray;
+				color:white;
+			}
+			.consonant {
+				font-size:30px;
+				background-color:gray;
+				color:white;
+			}
+		</style>
+	</head>
+
+<body>
+	<main>
+		<table>
+			<tbody>
+				<tr>
+					<td></td>
+					<td class="vowel" title="a">ಅ</td>
+					<td class="vowel" title="ā">ಆ</td>
+					<td class="vowel" title="i">ಇ</td>
+					<td class="vowel" title="ī">ಈ</td>
+					<td class="vowel" title="u">ಉ</td>
+					<td class="vowel" title="ū">ಊ</td>
+					<td class="vowel" title="r̥u">ಋ</td>
+					<td class="vowel" title="e">ಎ</td>
+					<td class="vowel" title="ē">ಏ</td>
+					<td class="vowel" title="ai">ಐ</td>
+					<td class="vowel" title="o">ಒ</td>
+					<td class="vowel" title="ō">ಓ</td>
+					<td class="vowel" title="au">ಔ</td>
+					<td class="vowel" title="aṁ">ಅಂ</td>
+					<td class="vowel" title="aḥa">ಅಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ka">ಕ</td>
+					<td title="ka">ಕ</td>
+					<td title="kā">ಕಾ</td>
+					<td title="ki">ಕಿ</td>
+					<td title="kī">ಕೀ</td>
+					<td title="ku">ಕು</td>
+					<td title="kū">ಕೂ</td>
+					<td title="kr̥u">ಕೃ</td>
+					<td title="ke">ಕೆ</td>
+					<td title="kē">ಕೇ</td>
+					<td title="kai">ಕೈ</td>
+					<td title="ko">ಕೊ</td>
+					<td title="kō">ಕೋ</td>
+					<td title="kau">ಕೌ</td>
+					<td title="kaṁ">ಕಂ</td>
+					<td title="kaḥa">ಕಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="kha">ಖ</td>
+					<td title="kha">ಖ</td>
+					<td title="khā">ಖಾ</td>
+					<td title="khi">ಖಿ</td>
+					<td title="khī">ಖೀ</td>
+					<td title="khu">ಖು</td>
+					<td title="khū">ಖೂ</td>
+					<td title="khr̥u">ಖೃ</td>
+					<td title="khe">ಖೆ</td>
+					<td title="khē">ಖೇ</td>
+					<td title="khai">ಖೈ</td>
+					<td title="kho">ಖೊ</td>
+					<td title="khō">ಖೋ</td>
+					<td title="khau">ಖೌ</td>
+					<td title="khaṁ">ಖಂ</td>
+					<td title="khaḥa">ಖಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ga">ಗ</td>
+					<td title="ga">ಗ</td>
+					<td title="gā">ಗಾ</td>
+					<td title="gi">ಗಿ</td>
+					<td title="gī">ಗೀ</td>
+					<td title="gu">ಗು</td>
+					<td title="gū">ಗೂ</td>
+					<td title="gr̥u">ಗೃ</td>
+					<td title="ge">ಗೆ</td>
+					<td title="gē">ಗೇ</td>
+					<td title="gai">ಗೈ</td>
+					<td title="go">ಗೊ</td>
+					<td title="gō">ಗೋ</td>
+					<td title="gau">ಗೌ</td>
+					<td title="gaṁ">ಗಂ</td>
+					<td title="gaḥa">ಗಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="gha">ಘ</td>
+					<td title="gha">ಘ</td>
+					<td title="ghā">ಘಾ</td>
+					<td title="ghi">ಘಿ</td>
+					<td title="ghī">ಘೀ</td>
+					<td title="ghu">ಘು</td>
+					<td title="ghū">ಘೂ</td>
+					<td title="ghr̥u">ಘೃ</td>
+					<td title="ghe">ಘೆ</td>
+					<td title="ghē">ಘೇ</td>
+					<td title="ghai">ಘೈ</td>
+					<td title="gho">ಘೊ</td>
+					<td title="ghō">ಘೋ</td>
+					<td title="ghau">ಘೌ</td>
+					<td title="ghaṁ">ಘಂ</td>
+					<td title="ghaḥa">ಘಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ṅa">ಙ</td>
+					<td title="ṅa">ಙ</td>
+					<td title="ṅā">ಙಾ</td>
+					<td title="ṅi">ಙಿ</td>
+					<td title="ṅī">ಙೀ</td>
+					<td title="ṅu">ಙು</td>
+					<td title="ṅū">ಙೂ</td>
+					<td title="ṅr̥u">ಙೃ</td>
+					<td title="ṅe">ಙೆ</td>
+					<td title="ṅē">ಙೇ</td>
+					<td title="ṅai">ಙೈ</td>
+					<td title="ṅo">ಙೊ</td>
+					<td title="ṅō">ಙೋ</td>
+					<td title="ṅau">ಙೌ</td>
+					<td title="ṅaṁ">ಙಂ</td>
+					<td title="ṅaḥa">ಙಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ca">ಚ</td>
+					<td title="ca">ಚ</td>
+					<td title="cā">ಚಾ</td>
+					<td title="ci">ಚಿ</td>
+					<td title="cī">ಚೀ</td>
+					<td title="cu">ಚು</td>
+					<td title="cū">ಚೂ</td>
+					<td title="cr̥u">ಚೃ</td>
+					<td title="ce">ಚೆ</td>
+					<td title="cē">ಚೇ</td>
+					<td title="cai">ಚೈ</td>
+					<td title="co">ಚೊ</td>
+					<td title="cō">ಚೋ</td>
+					<td title="cau">ಚೌ</td>
+					<td title="caṁ">ಚಂ</td>
+					<td title="caḥa">ಚಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="cha">ಛ</td>
+					<td title="cha">ಛ</td>
+					<td title="chā">ಛಾ</td>
+					<td title="chi">ಛಿ</td>
+					<td title="chī">ಛೀ</td>
+					<td title="chu">ಛು</td>
+					<td title="chū">ಛೂ</td>
+					<td title="chr̥u">ಛೃ</td>
+					<td title="che">ಛೆ</td>
+					<td title="chē">ಛೇ</td>
+					<td title="chai">ಛೈ</td>
+					<td title="cho">ಛೊ</td>
+					<td title="chō">ಛೋ</td>
+					<td title="chau">ಛೌ</td>
+					<td title="chaṁ">ಛಂ</td>
+					<td title="chaḥa">ಛಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ja">ಜ</td>
+					<td title="ja">ಜ</td>
+					<td title="jā">ಜಾ</td>
+					<td title="ji">ಜಿ</td>
+					<td title="jī">ಜೀ</td>
+					<td title="ju">ಜು</td>
+					<td title="jū">ಜೂ</td>
+					<td title="jr̥u">ಜೃ</td>
+					<td title="je">ಜೆ</td>
+					<td title="jē">ಜೇ</td>
+					<td title="jai">ಜೈ</td>
+					<td title="jo">ಜೊ</td>
+					<td title="jō">ಜೋ</td>
+					<td title="jau">ಜೌ</td>
+					<td title="jaṁ">ಜಂ</td>
+					<td title="jaḥa">ಜಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="jha">ಝ</td>
+					<td title="jha">ಝ</td>
+					<td title="jhā">ಝಾ</td>
+					<td title="jhi">ಝಿ</td>
+					<td title="jhī">ಝೀ</td>
+					<td title="jhu">ಝು</td>
+					<td title="jhū">ಝೂ</td>
+					<td title="jhr̥u">ಝೃ</td>
+					<td title="jhe">ಝೆ</td>
+					<td title="jhē">ಝೇ</td>
+					<td title="jhai">ಝೈ</td>
+					<td title="jho">ಝೊ</td>
+					<td title="jhō">ಝೋ</td>
+					<td title="jhau">ಝೌ</td>
+					<td title="jhaṁ">ಝಂ</td>
+					<td title="jhaḥa">ಝಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ña">ಞ</td>
+					<td title="ña">ಞ</td>
+					<td title="ñā">ಞಾ</td>
+					<td title="ñi">ಞಿ</td>
+					<td title="ñī">ಞೀ</td>
+					<td title="ñu">ಞು</td>
+					<td title="ñū">ಞೂ</td>
+					<td title="ñr̥u">ಞೃ</td>
+					<td title="ñe">ಞೆ</td>
+					<td title="ñē">ಞೇ</td>
+					<td title="ñai">ಞೈ</td>
+					<td title="ño">ಞೊ</td>
+					<td title="ñō">ಞೋ</td>
+					<td title="ñau">ಞೌ</td>
+					<td title="ñaṁ">ಞಂ</td>
+					<td title="ñaḥa">ಞಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ṭa">ಟ</td>
+					<td title="ṭa">ಟ</td>
+					<td title="ṭā">ಟಾ</td>
+					<td title="ṭi">ಟಿ</td>
+					<td title="ṭī">ಟೀ</td>
+					<td title="ṭu">ಟು</td>
+					<td title="ṭū">ಟೂ</td>
+					<td title="ṭr̥u">ಟೃ</td>
+					<td title="ṭe">ಟೆ</td>
+					<td title="ṭē">ಟೇ</td>
+					<td title="ṭai">ಟೈ</td>
+					<td title="ṭo">ಟೊ</td>
+					<td title="ṭō">ಟೋ</td>
+					<td title="ṭau">ಟೌ</td>
+					<td title="ṭaṁ">ಟಂ</td>
+					<td title="ṭaḥa">ಟಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ṭha">ಠ</td>
+					<td title="ṭha">ಠ</td>
+					<td title="ṭhā">ಠಾ</td>
+					<td title="ṭhi">ಠಿ</td>
+					<td title="ṭhī">ಠೀ</td>
+					<td title="ṭhu">ಠು</td>
+					<td title="ṭhū">ಠೂ</td>
+					<td title="ṭhr̥u">ಠೃ</td>
+					<td title="ṭhe">ಠೆ</td>
+					<td title="ṭhē">ಠೇ</td>
+					<td title="ṭhai">ಠೈ</td>
+					<td title="ṭho">ಠೊ</td>
+					<td title="ṭhō">ಠೋ</td>
+					<td title="ṭhau">ಠೌ</td>
+					<td title="ṭhaṁ">ಠಂ</td>
+					<td title="ṭhaḥa">ಠಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ḍa">ಡ</td>
+					<td title="ḍa">ಡ</td>
+					<td title="ḍā">ಡಾ</td>
+					<td title="ḍi">ಡಿ</td>
+					<td title="ḍī">ಡೀ</td>
+					<td title="ḍu">ಡು</td>
+					<td title="ḍū">ಡೂ</td>
+					<td title="ḍr̥u">ಡೃ</td>
+					<td title="ḍe">ಡೆ</td>
+					<td title="ḍē">ಡೇ</td>
+					<td title="ḍai">ಡೈ</td>
+					<td title="ḍo">ಡೊ</td>
+					<td title="ḍō">ಡೋ</td>
+					<td title="ḍau">ಡೌ</td>
+					<td title="ḍaṁ">ಡಂ</td>
+					<td title="ḍaḥa">ಡಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ḍha">ಢ</td>
+					<td title="ḍha">ಢ</td>
+					<td title="ḍhā">ಢಾ</td>
+					<td title="ḍhi">ಢಿ</td>
+					<td title="ḍhī">ಢೀ</td>
+					<td title="ḍhu">ಢು</td>
+					<td title="ḍhū">ಢೂ</td>
+					<td title="ḍhr̥u">ಢೃ</td>
+					<td title="ḍhe">ಢೆ</td>
+					<td title="ḍhē">ಢೇ</td>
+					<td title="ḍhai">ಢೈ</td>
+					<td title="ḍho">ಢೊ</td>
+					<td title="ḍhō">ಢೋ</td>
+					<td title="ḍhau">ಢೌ</td>
+					<td title="ḍhaṁ">ಢಂ</td>
+					<td title="ḍhaḥa">ಢಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ṇa">ಣ</td>
+					<td title="ṇa">ಣ</td>
+					<td title="ṇā">ಣಾ</td>
+					<td title="ṇi">ಣಿ</td>
+					<td title="ṇī">ಣೀ</td>
+					<td title="ṇu">ಣು</td>
+					<td title="ṇū">ಣೂ</td>
+					<td title="ṇr̥u">ಣೃ</td>
+					<td title="ṇe">ಣೆ</td>
+					<td title="ṇē">ಣೇ</td>
+					<td title="ṇai">ಣೈ</td>
+					<td title="ṇo">ಣೊ</td>
+					<td title="ṇō">ಣೋ</td>
+					<td title="ṇau">ಣೌ</td>
+					<td title="ṇaṁ">ಣಂ</td>
+					<td title="ṇaḥa">ಣಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ta">ತ</td>
+					<td title="ta">ತ</td>
+					<td title="tā">ತಾ</td>
+					<td title="ti">ತಿ</td>
+					<td title="tī">ತೀ</td>
+					<td title="tu">ತು</td>
+					<td title="tū">ತೂ</td>
+					<td title="tr̥u">ತೃ</td>
+					<td title="te">ತೆ</td>
+					<td title="tē">ತೇ</td>
+					<td title="tai">ತೈ</td>
+					<td title="to">ತೊ</td>
+					<td title="tō">ತೋ</td>
+					<td title="tau">ತೌ</td>
+					<td title="taṁ">ತಂ</td>
+					<td title="taḥa">ತಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="tha">ಥ</td>
+					<td title="tha">ಥ</td>
+					<td title="thā">ಥಾ</td>
+					<td title="thi">ಥಿ</td>
+					<td title="thī">ಥೀ</td>
+					<td title="thu">ಥು</td>
+					<td title="thū">ಥೂ</td>
+					<td title="thr̥u">ಥೃ</td>
+					<td title="the">ಥೆ</td>
+					<td title="thē">ಥೇ</td>
+					<td title="thai">ಥೈ</td>
+					<td title="tho">ಥೊ</td>
+					<td title="thō">ಥೋ</td>
+					<td title="thau">ಥೌ</td>
+					<td title="thaṁ">ಥಂ</td>
+					<td title="thaḥa">ಥಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="da">ದ</td>
+					<td title="da">ದ</td>
+					<td title="dā">ದಾ</td>
+					<td title="di">ದಿ</td>
+					<td title="dī">ದೀ</td>
+					<td title="du">ದು</td>
+					<td title="dū">ದೂ</td>
+					<td title="dr̥u">ದೃ</td>
+					<td title="de">ದೆ</td>
+					<td title="dē">ದೇ</td>
+					<td title="dai">ದೈ</td>
+					<td title="do">ದೊ</td>
+					<td title="dō">ದೋ</td>
+					<td title="dau">ದೌ</td>
+					<td title="dhaṁ">ದಂ</td>
+					<td title="daḥa">ದಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="dha">ಧ</td>
+					<td title="dha">ಧ</td>
+					<td title="dhā">ಧಾ</td>
+					<td title="dhi">ಧಿ</td>
+					<td title="dhī">ಧೀ</td>
+					<td title="dhu">ಧು</td>
+					<td title="dhū">ಧೂ</td>
+					<td title="dhr̥u">ಧೃ</td>
+					<td title="dhe">ಧೆ</td>
+					<td title="dhē">ಧೇ</td>
+					<td title="dhai">ಧೈ</td>
+					<td title="dho">ಧೊ</td>
+					<td title="dhō">ಧೋ</td>
+					<td title="dhau">ಧೌ</td>
+					<td title="dhaṁ">ಧಂ</td>
+					<td title="dhaḥa">ಧಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="na">ನ</td>
+					<td title="na">ನ</td>
+					<td title="nā">ನಾ</td>
+					<td title="ni">ನಿ</td>
+					<td title="nī">ನೀ</td>
+					<td title="nu">ನು</td>
+					<td title="nū">ನೂ</td>
+					<td title="nr̥u">ನೃ</td>
+					<td title="ne">ನೆ</td>
+					<td title="nē">ನೇ</td>
+					<td title="nai">ನೈ</td>
+					<td title="no">ನೊ</td>
+					<td title="nō">ನೋ</td>
+					<td title="nau">ನೌ</td>
+					<td title="naṁ">ನಂ</td>
+					<td title="naḥa">ನಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="pa">ಪ</td>
+					<td title="pa">ಪ</td>
+					<td title="pā">ಪಾ</td>
+					<td title="pi">ಪಿ</td>
+					<td title="pī">ಪೀ</td>
+					<td title="pu">ಪು</td>
+					<td title="pū">ಪೂ</td>
+					<td title="pr̥u">ಪೃ</td>
+					<td title="pe">ಪೆ</td>
+					<td title="pē">ಪೇ</td>
+					<td title="pai">ಪೈ</td>
+					<td title="po">ಪೊ</td>
+					<td title="pō">ಪೋ</td>
+					<td title="pau">ಪೌ</td>
+					<td title="paṁ">ಪಂ</td>
+					<td title="paḥa">ಪಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="pha">ಫ</td>
+					<td title="pha">ಫ</td>
+					<td title="phā">ಫಾ</td>
+					<td title="phi">ಫಿ</td>
+					<td title="phī">ಫೀ</td>
+					<td title="phu">ಫು</td>
+					<td title="phū">ಫೂ</td>
+					<td title="phr̥u">ಫೃ</td>
+					<td title="phe">ಫೆ</td>
+					<td title="phē">ಫೇ</td>
+					<td title="phai">ಫೈ</td>
+					<td title="ph">ಫೊ</td>
+					<td title="ph">ಫೋ</td>
+					<td title="phau">ಫೌ</td>
+					<td title="phaṁ">ಫಂ</td>
+					<td title="phaḥa">ಫಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ba">ಬ</td>
+					<td title="ba">ಬ</td>
+					<td title="bā">ಬಾ</td>
+					<td title="bi">ಬಿ</td>
+					<td title="bī">ಬೀ</td>
+					<td title="bu">ಬು</td>
+					<td title="bū">ಬೂ</td>
+					<td title="br̥u">ಬೃ</td>
+					<td title="be">ಬೆ</td>
+					<td title="bē">ಬೇ</td>
+					<td title="bai">ಬೈ</td>
+					<td title="bo">ಬೊ</td>
+					<td title="bō">ಬೋ</td>
+					<td title="bau">ಬೌ</td>
+					<td title="baṁ">ಬಂ</td>
+					<td title="baḥa">ಬಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="bha">ಭ</td>
+					<td title="bha">ಭ</td>
+					<td title="bhā">ಭಾ</td>
+					<td title="bhi">ಭಿ</td>
+					<td title="bhī">ಭೀ</td>
+					<td title="bhu">ಭು</td>
+					<td title="bhū">ಭೂ</td>
+					<td title="bhr̥u">ಭೃ</td>
+					<td title="bhe">ಭೆ</td>
+					<td title="bhē">ಭೇ</td>
+					<td title="bhai">ಭೈ</td>
+					<td title="bho">ಭೊ</td>
+					<td title="bhō">ಭೋ</td>
+					<td title="bhau">ಭೌ</td>
+					<td title="bhaṁ">ಭಂ</td>
+					<td title="bhaḥa">ಭಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ma">ಮ</td>
+					<td title="ma">ಮ</td>
+					<td title="mā">ಮಾ</td>
+					<td title="mi">ಮಿ</td>
+					<td title="mī">ಮೀ</td>
+					<td title="mu">ಮು</td>
+					<td title="mū">ಮೂ</td>
+					<td title="mr̥u">ಮೃ</td>
+					<td title="me">ಮೆ</td>
+					<td title="mē">ಮೇ</td>
+					<td title="mai">ಮೈ</td>
+					<td title="m">ಮೊ</td>
+					<td title="m">ಮೋ</td>
+					<td title="mau">ಮೌ</td>
+					<td title="maṁ">ಮಂ</td>
+					<td title="maḥa">ಮಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ya">ಯ</td>
+					<td title="ya">ಯ</td>
+					<td title="yā">ಯಾ</td>
+					<td title="yi">ಯಿ</td>
+					<td title="yī">ಯೀ</td>
+					<td title="yu">ಯು</td>
+					<td title="yū">ಯೂ</td>
+					<td title="yr̥u">ಯೃ</td>
+					<td title="ye">ಯೆ</td>
+					<td title="yē">ಯೇ</td>
+					<td title="yai">ಯೈ</td>
+					<td title="yo">ಯೊ</td>
+					<td title="yō">ಯೋ</td>
+					<td title="yau">ಯೌ</td>
+					<td title="yaṁ">ಯಂ</td>
+					<td title="yaḥa">ಯಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ra">ರ</td>
+					<td title="ra">ರ</td>
+					<td title="rā">ರಾ</td>
+					<td title="ri">ರಿ</td>
+					<td title="rī">ರೀ</td>
+					<td title="ru">ರು</td>
+					<td title="rū">ರೂ</td>
+					<td title="rr̥u">ರೃ</td>
+					<td title="re">ರೆ</td>
+					<td title="rē">ರೇ</td>
+					<td title="rai">ರೈ</td>
+					<td title="r">ರೊ</td>
+					<td title="r">ರೋ</td>
+					<td title="rau">ರೌ</td>
+					<td title="raṁ">ರಂ</td>
+					<td title="raṁ">ರಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="la">ಲ</td>
+					<td title="la">ಲ</td>
+					<td title="lā">ಲಾ</td>
+					<td title="li">ಲಿ</td>
+					<td title="lī">ಲೀ</td>
+					<td title="lu">ಲು</td>
+					<td title="lū">ಲೂ</td>
+					<td title="lr̥u">ಲೃ</td>
+					<td title="le">ಲೆ</td>
+					<td title="lē">ಲೇ</td>
+					<td title="lai">ಲೈ</td>
+					<td title="lo">ಲೊ</td>
+					<td title="lō">ಲೋ</td>
+					<td title="lau">ಲೌ</td>
+					<td title="laṁ">ಲಂ</td>
+					<td title="laḥa">ಲಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="va">ವ</td>
+					<td title="va">ವ</td>
+					<td title="vā">ವಾ</td>
+					<td title="vi">ವಿ</td>
+					<td title="vī">ವೀ</td>
+					<td title="vu">ವು</td>
+					<td title="vū">ವೂ</td>
+					<td title="vr̥u">ವೃ</td>
+					<td title="ve">ವೆ</td>
+					<td title="vai">ವೇ</td>
+					<td title="v">ವೈ</td>
+					<td title="v">ವೊ</td>
+					<td title="v">ವೋ</td>
+					<td title="vau">ವೌ</td>
+					<td title="vaṁ">ವಂ</td>
+					<td title="vaḥa">ವಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="śa">ಶ</td>
+					<td title="śa">ಶ</td>
+					<td title="śā">ಶಾ</td>
+					<td title="śi">ಶಿ</td>
+					<td title="śī">ಶೀ</td>
+					<td title="śu">ಶು</td>
+					<td title="śū">ಶೂ</td>
+					<td title="śr̥u">ಶೃ</td>
+					<td title="śe">ಶೆ</td>
+					<td title="śē">ಶೇ</td>
+					<td title="śai">ಶೈ</td>
+					<td title="śo">ಶೊ</td>
+					<td title="śō">ಶೋ</td>
+					<td title="śau">ಶೌ</td>
+					<td title="śaṁ">ಶಂ</td>
+					<td title="śaḥa">ಶಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ṣa">ಷ</td>
+					<td title="ṣa">ಷ</td>
+					<td title="ṣā">ಷಾ</td>
+					<td title="ṣi">ಷಿ</td>
+					<td title="ṣī">ಷೀ</td>
+					<td title="ṣu">ಷು</td>
+					<td title="ṣū">ಷೂ</td>
+					<td title="ṣr̥u">ಷೃ</td>
+					<td title="ṣe">ಷೆ</td>
+					<td title="ṣē">ಷೇ</td>
+					<td title="ṣai">ಷೈ</td>
+					<td title="ṣo">ಷೊ</td>
+					<td title="ṣō">ಷೋ</td>
+					<td title="ṣau">ಷೌ</td>
+					<td title="ṣaṁ">ಷಂ</td>
+					<td title="ṣaḥa">ಷಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="sa">ಸ</td>
+					<td title="sa">ಸ</td>
+					<td title="sā">ಸಾ</td>
+					<td title="si">ಸಿ</td>
+					<td title="sī">ಸೀ</td>
+					<td title="su">ಸು</td>
+					<td title="sū">ಸೂ</td>
+					<td title="sr̥u">ಸೃ</td>
+					<td title="se">ಸೆ</td>
+					<td title="sē">ಸೇ</td>
+					<td title="sai">ಸೈ</td>
+					<td title="so">ಸೊ</td>
+					<td title="sō">ಸೋ</td>
+					<td title="sau">ಸೌ</td>
+					<td title="saṁ">ಸಂ</td>
+					<td title="saḥa">ಸಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ha">ಹ</td>
+					<td title="ha">ಹ</td>
+					<td title="hā">ಹಾ</td>
+					<td title="hi">ಹಿ</td>
+					<td title="hī">ಹೀ</td>
+					<td title="hu">ಹು</td>
+					<td title="hū">ಹೂ</td>
+					<td title="hr̥u">ಹೃ</td>
+					<td title="he">ಹೆ</td>
+					<td title="hē">ಹೇ</td>
+					<td title="hai">ಹೈ</td>
+					<td title="ho">ಹೊ</td>
+					<td title="hō">ಹೋ</td>
+					<td title="hau">ಹೌ</td>
+					<td title="haṁ">ಹಂ</td>
+					<td title="haḥa">ಹಃ</td>
+				</tr>
+				<tr>
+					<td class="consonant" title="ḷa">ಳ</td>
+					<td title="ḷa">ಳ</td>
+					<td title="ḷā">ಳಾ</td>
+					<td title="ḷi">ಳಿ</td>
+					<td title="ḷī">ಳೀ</td>
+					<td title="ḷī">ಳು</td>
+					<td title="ḷu">ಳೂ</td>
+					<td title="ḷū">ಳೃ</td>
+					<td title="ḷr̥u">ಳೆ</td>
+					<td title="ḷe">ಳೇ</td>
+					<td title="ḷē">ಳೈ</td>
+					<td title="ḷai">ಳೊ</td>
+					<td title="ḷo">ಳೋ</td>
+					<td title="ḷau">ಳೌ</td>
+					<td title="ḷaṁ">ಳಂ</td>
+					<td title="ḷaḥa">ಳಃ</td>
+				</tr>
+			</tbody>
+		</table>
+	</main>
+</body>
+
+</html>
